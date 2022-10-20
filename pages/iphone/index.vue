@@ -18,8 +18,10 @@
 useHead({
     title:"Nuxt3 - Iphone"
 });
-
+//client route path
 const iphones=['iphone-12','iphone-13','iphone-12pro','iphone-13pro'];
-
-
+//these for server route but here we use client route
+//const {data}=useFetch("api/iphones")
+// const {data}=useFetch("/iphones")
+// const iphones= data;
 </script>

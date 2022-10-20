@@ -123,5 +123,12 @@ Inline middleware or default middleware code is only in particular page
 in named we have to create directory and file auth.js put the same code there so that we can use it many places
 3. global
 how many time pages are visited then we use global middleware
+
+Server Route:
+create server directory and whatever we write over there, we can access that code
+
+Deploy on Netlify server
+npm run build   (for server and client side both)
+npm run generate   (only for client side with index file not having any server files in output folder)
 ```
 
